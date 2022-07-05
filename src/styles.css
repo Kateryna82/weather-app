@@ -1,0 +1,28 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    padding: 20px;
+  }
+  h2,
+  h3 {
+    padding: 10px;
+    margin: 20px;
+  }
+  form {
+    margin: 50px;
+    padding: 10px;
+  }
+  .row {
+    margin: 20px;
+  }
+  .col-2 {
+    background: #ffebbb;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .container {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e0ffcd;
+  }
+  

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+</head>
+<body>
+    <h1>
+        Weather forecast
+    </h1>
+    <div class="container">
+            <form class="search-form" id="search-form">
+                    <div class="row">
+                      <div class="col-6">
+                        <input type="search" id="city-input" placeholder="Type a city.." autofocus="on" autocomplete="off" >
+                      </div>
+                      <div class="col-3">
+                        <input type="submit" id = "submit-city" value="Search" class="form-control">
+                      </div>
+                      <div class="col-3">
+                        <button id="current-location-button">
+                          Current
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  <h1 id = "city">
+                      New York
+                  </h1>
+                  <p id = "date">
+                      Thursday, 16:22
+                  </p>
+                  <p id = "description">
+                      Sunny
+                  </p>
+                  <div class="row">
+                        <div class="col-6">
+                          
+                            
+                              <span class="temperature" id="temperature">26</span><span class="units">°C</span>
+                            
+                          
+                        </div>
+                        <div class="col-6">
+                          <p> Humidity: <span id="humidity">52</span>%</p>
+                            <p>Wind: <span id="wind">1</span> km/h</p>
+                          
+                        </div>
+                      </div>
+    <p><a href="https://github.com/Kateryna82">Open sourse code</a> by Kateryna Svidnytska</p>
+    <script src="src/js.js">
+
+    </script>
+</body>
+</html>
